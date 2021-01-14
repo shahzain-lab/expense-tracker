@@ -1,12 +1,16 @@
 import React, { createContext, useReducer} from 'react';
+import AppReducer from './AppReducer';
+import { stateTypes } from '../../interface/types.interface';
 
-
-const initialState = {
+export interface state{
+ firstState: stateTypes[];
+}
+const initialState: state = {
     firstState:[
-        {id: 1, description: "salary", amount: '$34'},
-        {id: 2, description: "salanty", amount: '$65'},
-        {id: 3, description: "bread", amount: '$32'},
-        {id: 4, description: "cake", amount: '$24'},
+        {id: 1, description: "salary", amount: 34},
+        {id: 2, description: "salanty", amount: 65},
+        {id: 3, description: "bread", amount: 32},
+        {id: 4, description: "cake", amount: 24},
     ]
 }
 export const GlobalState = createContext(initialState);

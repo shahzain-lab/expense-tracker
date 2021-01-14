@@ -4,10 +4,11 @@ import { Summary } from './components/Summary';
 import { AddTrans } from './components/AddTrans';
 import { Balance } from './components/Balance';
 import { History } from './components/History';
+import { GlobalProvider } from './components/context/GlobalState';
 
 function App() {
   return (
-    <div className="mainDiv">
+    <GlobalProvider className="mainDiv">
       <div>
       <h1>expense tracker</h1>
       <div className="section">
@@ -21,7 +22,7 @@ function App() {
         </div>
       </div>
       </div>
-    </div>
+    </GlobalProvider>
   );
 }
 
