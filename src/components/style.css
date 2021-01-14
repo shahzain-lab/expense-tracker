@@ -68,6 +68,7 @@
 .AddTrans{
     width: 100%;
     height: 80%;
+    padding-top: 10%;
 }
 .AddTrans form{
     padding: 3%;
@@ -117,9 +118,19 @@ form button{
     padding: 2% 4%;
 }
 .Transction{
-    border: 1px solid pink;
+    border: 2px solid #b9b9b9;
+    border-radius: 1.3rem;
+    font-size: 1.2rem;
+    padding:2% 0;
     display: flex;
     align-items: center;
     margin: 2% 0;
     justify-content: space-around;
+}
+.Transction:hover i{
+    visibility: visible;
+}
+.Transction i{
+    cursor: pointer;
+    visibility: hidden;
 }

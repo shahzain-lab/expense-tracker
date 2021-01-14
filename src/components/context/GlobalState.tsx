@@ -8,7 +8,8 @@ export interface state{
  AddTransaction?: (transaction: unknown) => void
 }
 const initialState: state = {
-    firstState:[]
+    firstState:[
+    ]
 }
 export const GlobalState = createContext(initialState);
 

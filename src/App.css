@@ -37,7 +37,8 @@
   box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, -8px -39px 6px -29px rgba(0,0,0,0.05);
   margin-top: 2%;
   padding: 2%;
-  display: flex;
+  display: flex;background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(24,24,24,1) 18%, rgba(32,32,32,1) 39%, rgba(133,130,130,1) 50%, rgba(69,67,67,1) 55%, rgba(45,45,45,1) 60%, rgba(32,32,32,1) 76%, rgba(42,41,41,1) 88%, rgba(80,76,76,1) 100%);
 }
 .sec1{
   width: 50%;
