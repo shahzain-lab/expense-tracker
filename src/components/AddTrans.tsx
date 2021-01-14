@@ -6,7 +6,7 @@ import { GlobalState } from './context/GlobalState';
 
 export const AddTrans = () => {
     const [description, setDescription] = useState('');
-    const [amount, setAmount] = useState('0');
+    const [amount, setAmount] = useState('');
 
     const { AddTransaction }:any = useContext(GlobalState);
 
@@ -14,7 +14,7 @@ export const AddTrans = () => {
       e.preventDefault();
        
       const newTransaction = {
-          id: new Date().getDate(),
+          id: new Date().getTime(),
           description,
           amount: +amount
       }

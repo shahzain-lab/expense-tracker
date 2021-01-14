@@ -10,7 +10,7 @@ export default function AppReducer(
            return{
                ...state,
                firstState: state.firstState
-               .filter(transaction => transaction !== action.payload) 
+               .filter(transaction => transaction.id !== action.payload) 
            }
            case 'ADD_TRANSACTION':
                return {
