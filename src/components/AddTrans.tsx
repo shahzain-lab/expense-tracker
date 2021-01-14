@@ -20,10 +20,7 @@ export const AddTrans = () => {
                  placeholder="Add Amount Description"
                 />
                 <br />
-                <input 
-                  type="submit" 
-                  value="submit"
-                />
+                <button>Add Transction</button>
             </form>
         </div>
     )
