@@ -1,7 +1,11 @@
 import React from 'react'
 import './style.css'
+import { useState } from 'react'
 
 export const AddTrans = () => {
+    const [description, setDescription] = useState('');
+    const [amount, setAmount] = useState('0');
+    
     return (
         <div className="AddTrans">
             <h3 className="Addhead">Add Transction</h3>

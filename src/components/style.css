@@ -76,3 +76,20 @@ form button{
     border-radius: 1.3rem;
     
 }
+/* //History/ */
+.History{
+    width: 100%;
+    border: 1px solid red;
+    height: 40%;
+}
+.histHead{
+    font-size: 1.3rem;
+    padding: 2% 4%;
+}
+.History ul li{
+    border: 1px solid pink;
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+    justify-content: space-around;
+}
