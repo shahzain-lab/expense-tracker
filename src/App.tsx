@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Balance } from './components/Balance';
+import { Summary } from './components/Summary';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div>
       <h3>expense tracker</h3>
       <div className="section">
-          <Balance />
+        <Summary />
       </div>
       </div>
     </div>

@@ -3,3 +3,37 @@
     height: 35%;
     border: 1px solid purple;
 }
+.Summary{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    border: 1px solid gray;
+    align-items: center;
+}
+.sum1{
+    background-color: #4ef500c7;
+}
+.sum1 h4{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1%;
+}
+.sum1 span{
+    font-size: 1.2rem;
+
+}
+.sum2{
+    background-color: #ff0000b7;
+}
+.sum2 h4{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1%;
+}
+.sum2 span{
+    font-size: 1.2rem;
+    
+}
+.fas{
+    color: purple;
+}
