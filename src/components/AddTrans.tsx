@@ -1,10 +1,20 @@
 import React from 'react'
 import './style.css'
 import { useState } from 'react'
+import { useContext } from 'react';
+import { GlobalState } from './context/GlobalState';
 
 export const AddTrans = () => {
     const [description, setDescription] = useState('');
     const [amount, setAmount] = useState('0');
+
+    const { AddTransaction } = useContext(GlobalState);
+
+    const onSubmit = (e: any) => {
+      e.preventDefault();
+       
+      const newTransaction = {}
+    }
 
     return (
         <div className="AddTrans">
