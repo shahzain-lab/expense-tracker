@@ -87,7 +87,7 @@ form button{
     font-size: 1.3rem;
     padding: 2% 4%;
 }
-.History ul li{
+.Transction{
     border: 1px solid pink;
     display: flex;
     align-items: center;
