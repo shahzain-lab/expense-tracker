@@ -3,6 +3,7 @@ import './App.css';
 import { Summary } from './components/Summary';
 import { AddTrans } from './components/AddTrans';
 import { Balance } from './components/Balance';
+import { History } from './components/History';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Summary />
         <AddTrans />
         </div>
-        <div>
+        <div className="sec2">
         <Balance />
+        <History />
         </div>
       </div>
       </div>
