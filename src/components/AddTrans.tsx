@@ -23,7 +23,7 @@ export const AddTrans = () => {
 
     return (
         <div className="AddTrans">
-            <h3 className="Addhead">Add Transction</h3>
+            <h3 className="Addhead">Add Transaction</h3>
             <form onSubmit={onSubmit}>
                 <label>Add Amount</label>
                 <br />
@@ -43,7 +43,7 @@ export const AddTrans = () => {
                  placeholder="Add Amount Description"
                 />
                 <br />
-                <button>Add Transction</button>
+                <button>Add Transaction</button>
             </form>
         </div>
     )
