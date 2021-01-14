@@ -6,6 +6,12 @@ export default function AppReducer(
     ,action: any
     ){
    switch(action.type){
+       case 'DELETE_TRANSACTION':
+           return{
+               ...state,
+               firstState: state.firstState
+               .filter(transaction => transaction !== action.payload) 
+           }
        default:
            return state
    }

@@ -11,7 +11,7 @@ export const Transction: FC<Props> = ({transaction}) => {
     const sign = transaction.amount > 0 ? '+' : '-';
     const TransTypes = transaction.amount > 0 ? 'plus' : 'minus';
     return (
-        <div>
+        <div className={TransTypes}>
             <li className="Transction">
                 {transaction.description}
     <span>{sign} ${Math.abs(transaction.amount)}</span>
