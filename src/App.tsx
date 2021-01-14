@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <div>
-        
+    <div className="mainDiv">
+      <h3>expense tracker</h3>
+      <div className="section">
+
       </div>
     </div>
   );
