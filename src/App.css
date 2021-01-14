@@ -23,7 +23,7 @@
     filter: drop-shadow(2px 2px #0085a3);
     font-size: 70px;
     text-align: center;
-    margin: 20px;
+    margin: 2%;
 }
 .section{
   position: absolute;
@@ -32,6 +32,9 @@
   transform: translate(-50%, -50%);
   width: 70%;
   height: 70%;
-  background: #3a3a3a;
+  background: transparent;
   border-radius: 1.2rem;
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, -8px -39px 6px -29px rgba(0,0,0,0.05);
+  margin-top: 2%;
+  padding: 2%;
 }
