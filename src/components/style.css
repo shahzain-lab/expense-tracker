@@ -3,6 +3,8 @@
     height: 35%;
     border: 1px solid purple;
 }
+
+/* //Summary/// */
 .Summary{
     display: flex;
     width: 60%;
@@ -36,4 +38,14 @@
 }
 .fas{
     color: purple;
+}
+
+/* ///AddTransction/// */
+.AddTrans{
+    width: 60%;
+    height: 100%;
+    border: 1px solid orange;
+}
+.Addhead{
+    font-size: 1.2rem!important;
 }
