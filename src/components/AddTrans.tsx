@@ -8,18 +8,23 @@ export const AddTrans = () => {
     const [description, setDescription] = useState('');
     const [amount, setAmount] = useState('0');
 
-    const { AddTransaction } = useContext(GlobalState);
+    const { AddTransaction }:any = useContext(GlobalState);
 
     const onSubmit = (e: any) => {
       e.preventDefault();
        
-      const newTransaction = {}
+      const newTransaction = {
+          id: new Date().getDate(),
+          description,
+          amount: +amount
+      }
+      AddTransaction(newTransaction)
     }
 
     return (
         <div className="AddTrans">
             <h3 className="Addhead">Add Transction</h3>
-            <form>
+            <form onSubmit={onSubmit}>
                 <label>Add Amount</label>
                 <br />
                 <input 

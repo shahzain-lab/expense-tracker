@@ -8,12 +8,7 @@ export interface state{
  AddTransaction?: (transaction: unknown) => void
 }
 const initialState: state = {
-    firstState:[
-        {id: 1, description: "salary", amount: 34},
-        {id: 2, description: "salanty", amount: 65},
-        {id: 3, description: "bread", amount: 32},
-        {id: 4, description: "cake", amount: 24},
-    ]
+    firstState:[]
 }
 export const GlobalState = createContext(initialState);
 
