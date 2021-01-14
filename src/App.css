@@ -10,7 +10,7 @@
   height: 100vh;
   background: #0000;
 }
-.mainDiv h1{
+.heading{
   font-family: Fascinate Inline;
     background-image: linear-gradient(180deg, #fff, #87f1ff);
     font-weight: 400px;

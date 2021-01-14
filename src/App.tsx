@@ -10,7 +10,7 @@ function App() {
   return (
     <GlobalProvider className="mainDiv">
       <div>
-      <h1>expense tracker</h1>
+      <h1 className="heading">expense tracker</h1>
       <div className="section">
         <div className="sec1">
         <Summary />

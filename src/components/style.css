@@ -1,7 +1,12 @@
 .Balance{
     width: 100%;
     height: 35%;
-    border: 1px solid purple;
+}
+.Balance h4{
+    text-align: center;
+}
+.Balance h4 span{
+    padding-left: 5%;
 }
 
 /* //Summary/// */
@@ -9,11 +14,24 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    border: 1px solid gray;
     align-items: center;
 }
 .sum1{
-    background-color: #4ef500c7;
+    width: 80%;
+    text-align: center;
+    background-color: #51ff00;
+    border-radius: 1rem;
+}
+.sum1 i{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.sum2 i{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.sum1 span{
+    color: #fff;
 }
 .sum1 h4{
     text-transform: uppercase;
@@ -26,6 +44,12 @@
 }
 .sum2{
     background-color: #ff0000b7;
+    width: 80%;
+    border-radius: 1rem;
+    text-align: center;
+}
+.sum2 i{
+    font-size: 2rem;
 }
 .sum2 h4{
     text-transform: uppercase;
@@ -44,11 +68,9 @@
 .AddTrans{
     width: 100%;
     height: 80%;
-    border: 1px solid orange;
 }
 .AddTrans form{
     padding: 3%;
-    margin-top: 2%;
 }
 form label{
     font-size: 1.2rem;
@@ -64,9 +86,17 @@ form input, textarea{
     font-weight: 500;
 }
 .Addhead{
-    font-size: 1.5rem;
-    padding: 3%;
-    margin-top:2%;
+    font-family: Fascinate Inline;
+    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    font-weight: 400px;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #0085a3);
+    font-size:1.4rem;
 }
 form button{
     font-size: 1.1rem;
@@ -80,7 +110,6 @@ form button{
 /* //History/ */
 .History{
     width: 100%;
-    border: 1px solid red;
     height: 40%;
 }
 .histHead{

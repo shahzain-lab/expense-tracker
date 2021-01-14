@@ -22,12 +22,12 @@ export const Summary = () => {
         <div className="Summary">
             <div className="sum1">
             <i className="fas fa-chart-line"></i>
-            {/* <h4>Income</h4> */}
+            {/* <h4>Income</h4> */}<br />
             <span>{income}</span>
             </div>
             <div className="sum2">
             <i className="fas fa-sort-amount-down-alt"></i>
-            {/* <h4>expense</h4> */}
+            {/* <h4>expense</h4> */}<br />
             <span>{expense}</span>
             </div>
         </div>

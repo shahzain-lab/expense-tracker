@@ -12,7 +12,7 @@ const balance = transctionAmount
 
     return (
         <div className="Balance">
-            <h4><i className="fas fa-balance-scale"></i>Balance <br /><span>{balance}</span></h4>
+            <h4><i className="fas fa-balance-scale"></i><br />Balance: <span>{balance}</span></h4>
         </div>
     )
 }
